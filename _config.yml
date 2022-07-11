@@ -204,3 +204,4 @@ protocols:
     os_src: "git@github.com:bencentra/centrarium.com.git"
     
 published:  true
+future:  true
