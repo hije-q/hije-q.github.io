@@ -204,3 +204,5 @@ protocols:
     os_src: "git@github.com:bencentra/centrarium.com.git"
     
 future:  true
+
+category_list: [ nodejs, javascript, tip, diary, linux, chatbot, php ,publishing, jekyll, sql, error ]
