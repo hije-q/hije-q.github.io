@@ -33,4 +33,14 @@ main이라는 브랜치에 push해봤자 이 명령어는 main에 있는 파일�
 
 어 그럼 로컬의 main에서 작업한 걸 원격의 apple로는 못 올리나..? 올릴 수 있겠지.. 내일 브랜치 개념 정립하면서 알아보자<br/><br/>
 
+## <내일 공부해야 할 것>
+1. branch 개념
+2. 위의 의문
+3. 첫 commit 과 branch push 관계
+4. $ git push origin --delete jiye
+5. $ git push --set-upstream origin master
+6. +main - 무시?
+7. 토큰<br/><br/>
+8. reject 당하는 경우
+
 [내용 출처](https://velog.io/@max-sum/GitGithub-not-workingeverything-up-to-date-but)
