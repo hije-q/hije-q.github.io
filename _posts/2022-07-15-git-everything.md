@@ -23,7 +23,7 @@ main이라는 브랜치에 push해봤자 이 명령어는 main에 있는 파일�
 여기서 브랜치를 바꾸면 코드들이 바뀐다 <br/><br/>
 내일은 branch 개념을 제대로 정립하자.<br/><br/>
 
-###<정리>
+### <정리>
 1. apple 이라는 브랜치에 새로운 내용을 올려야한다.
 2. 근데 나는 main 브랜치에서 작업했다.
 3. apple 브랜치의 내용은 변한게 없다.
@@ -31,6 +31,6 @@ main이라는 브랜치에 push해봤자 이 명령어는 main에 있는 파일�
 5. apple 입장에선 아무것도 한 게 없는데 뭘 업뎃하라는 건가
 6. main 에서 apple 로 넘어와서 다시 작업하고 push 하자. <br/><br/>
 
-어 그럼 로컬의 main에서 작업한 걸 원격의 apple로는 못 올리나..? 올릴 수 있겠지.. 내일 알아보자<br/><br/>
+어 그럼 로컬의 main에서 작업한 걸 원격의 apple로는 못 올리나..? 올릴 수 있겠지.. 내일 브랜치 개념 정립하면서 알아보자<br/><br/>
 
 [내용 출처](https://velog.io/@max-sum/GitGithub-not-workingeverything-up-to-date-but)
