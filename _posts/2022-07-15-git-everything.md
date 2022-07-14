@@ -6,7 +6,6 @@ tag: everything up-to-date
 title: "Git 파헤치기 2 - everything up-to-date 오류"
 ---
 ## 오류 - everything up-to-date
-* 맨 밑에 상황을 쉽게 정리해뒀다.<br/><br/>
 분명 변경사항이 있는데 push 를 했는데도 이 말이 계속 나왔다.<br/><br/>
 
 찾아보니 내가 branch 개념을 제대로 알고 있지 않아서 생긴 상황이었다.<br/><br/>
