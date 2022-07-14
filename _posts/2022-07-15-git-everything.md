@@ -40,7 +40,7 @@ main이라는 브랜치에 push해봤자 이 명령어는 main에 있는 파일�
 4. $ git push origin --delete jiye
 5. $ git push --set-upstream origin master
 6. +main - 무시?
-7. 토큰<br/><br/>
-8. reject 당하는 경우
+7. 토큰
+8. reject 당하는 경우<br/><br/>
 
 [내용 출처](https://velog.io/@max-sum/GitGithub-not-workingeverything-up-to-date-but)
