@@ -6,8 +6,8 @@ author: hije
 tags: settings.py
 ---
 # <장고 settings.py>
-## 장고 프레임워크의 모든 개발환경 세팅은 settings.py 파일에서 설정한다.
-* 로그 설정, app등록, Templates 설정, DB 설정, 다국어 및 지역 시간 설정, 정적파일 설정 등을 관리한다.
+### 장고 프레임워크의 모든 개발환경 세팅은 settings.py 파일에서 설정한다.
+* 로그 설정, app등록, Templates 설정, DB 설정, 다국어 및 지역 시간 설정, 정적파일 설정 등을 관리한다.<br/><br/>
 
 ## 1. 로그 설정
 * 기본은 True 로 되어있어 개발시 로그를 남기게 된다. ㅍ 
