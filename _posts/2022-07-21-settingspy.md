@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'django.contrib.auth',
     ...
     'apple',
+]
 ```
 참고로 마지막에 , 를 빠뜨려선 안된다.<br/><br/><br/><br/>
 
