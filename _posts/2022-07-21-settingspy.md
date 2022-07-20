@@ -3,6 +3,7 @@ layout: post
 title: "장고 settings.py에 대해"
 categories: django
 author: hije
+tags: settings.py
 ---
 # <장고 settings.py><br/><br/>
 ## 장고 프레임워크의 모든 개발환경 세팅은 settings.py 파일에서 설정한다.
