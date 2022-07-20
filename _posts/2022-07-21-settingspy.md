@@ -50,7 +50,7 @@ TEMPLATES = [
 ]
 ```
 음 이건 뭔소린지 잘 모르겠다.. template 이 뭔지 알아보도록 하자<br/><br/>
-* template 은 html 파일로서 django app 폴더 밑에 templates 라는 서브폴더를 만들고 그 안에 템플릿 파일(.html)을 생성한다.
+* template 은 html 파일로서 django app 폴더 밑에 templates 라는 서브폴더를 만들고 그 안에 템플릿 파일(.html)을 생성한다. 
 이는 단일 app이거나 동일 템플릿명이 없는 경우 사용할 수 있다.<br/><br/>
 
 * 즉 settings.py 에선 이런 template 들의 경로를 설정할 수 있다는 거다.<br/><br/><br/><br/>
@@ -105,7 +105,9 @@ STATIC_URL = '/static/'
 css, jpg, javascript 파일 같은 것들이다.<br/><br/><br/><br/>
 
 이렇게 settings.py 에 있는 코드들이 어떤 역할을 하는지 알아보았다.  
-다음엔 내 코드에 적용시키며 뭐가 무엇인지 알아보도록 하자.<br/><br/><br/><br/>
+다음엔 내 코드에 적용시키며 뭐가 무엇인지 알아보도록 하자.<br/><br/>
+
+* 참고로 markdown 문법에서 줄바꿈은 스페이스바 2번이다..<br/><br/>
 
 [내용 출처](https://myjamong.tistory.com/101)
 
