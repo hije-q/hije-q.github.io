@@ -104,7 +104,7 @@ STATIC_URL = '/static/'
 우리가 페이지를 만들 때 쓰임이 정해져있는 파일들이기 때문에 개발하는 단계에서 이러한 파일들을 관리하는 것이다.
 css, jpg, javascript 파일 같은 것들이다.<br/><br/><br/><br/>
 
-이렇게 settings.py 에 있는 코드들이 어떤 역할을 하는지 알아보았다.
+이렇게 settings.py 에 있는 코드들이 어떤 역할을 하는지 알아보았다.  
 다음엔 내 코드에 적용시키며 뭐가 무엇인지 알아보도록 하자.<br/><br/><br/><br/>
 
 [내용 출처](https://myjamong.tistory.com/101)
