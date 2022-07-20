@@ -58,7 +58,7 @@ TEMPLATES = [
 
 ## 4. DB 설정
 * default로 sqllite를 사용한다.
-```python
+``` python
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
@@ -69,8 +69,7 @@ DATABASES = {
     }
 }
 ```
-
-<br/><br/><br/><br/>
+<br/><br/> <br/><br/>
 
 ## 5. 다국어 및 지역 시간 설정
 * 기본 설정은 LANGUAGE_CODE= "en-us", TIME_ZONE = "UTC"로 되어 있다.
