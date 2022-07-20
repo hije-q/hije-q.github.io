@@ -50,8 +50,7 @@ TEMPLATES = [
 ]
 ```
 음 이건 뭔소린지 잘 모르겠다.. template 이 뭔지 알아보도록 하자<br/><br/>
-* template 은 html 파일로서 django app 폴더 밑에 templates 라는 서브폴더를 만들고 그 안에 템플릿 파일(.html)을 생성한다.  
-이는 단일 app이거나 동일 템플릿명이 없는 경우 사용할 수 있다.<br/><br/>
+* template 은 html 파일로서 django app 폴더 밑에 templates 라는 서브폴더를 만들고 그 안에 템플릿 파일(.html)을 생성한다. 이는 단일 app이거나 동일 템플릿명이 없는 경우 사용할 수 있다.<br/><br/>
 
 * 즉 settings.py 에선 이런 template 들의 경로를 설정할 수 있다는 거다.<br/><br/><br/><br/>
 
