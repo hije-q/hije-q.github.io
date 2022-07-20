@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "장고 settings.py"
+title: "장고 settings.py에 대해"
 categories: django
 author: hije
---
+---
+# 장고 settings.py<br/><br/>
 ## 장고 프레임워크의 모든 개발환경 세팅은 settings.py 파일에서 설정한다.
 * 로그 설정, app등록, Templates 설정, DB 설정, 다국어 및 지역 시간 설정, 정적파일 설정 등을 관리한다.
 
@@ -48,8 +49,7 @@ TEMPLATES = [
     },
 ]
 ```
-<br/><br/>
-음 이건 뭔소린지 잘 모르겠다.. template 이 뭔지 알아보도록 하자
+음 이건 뭔소린지 잘 모르겠다.. template 이 뭔지 알아보도록 하자<br/><br/>
 * template 은 html 파일로서 django app 폴더 밑에 templates 라는 서브폴더를 만들고 그 안에 템플릿 파일(.html)을 생성한다.
 이는 단일 app이거나 동일 템플릿명이 없는 경우 사용할 수 있다.<br/><br/>
 
