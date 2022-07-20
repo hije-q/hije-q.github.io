@@ -10,7 +10,7 @@ tags: settings.py
 * 로그 설정, app등록, Templates 설정, DB 설정, 다국어 및 지역 시간 설정, 정적파일 설정 등을 관리한다.<br/><br/>
 
 ## 1. 로그 설정
-* 기본은 True 로 되어있어 개발시 로그를 남기게 된다. ㅍ 
+* 기본은 True 로 되어있어 개발시 로그를 남기게 된다. 
 운영시 꼭 False 로 변경을 해줘야 한다.
 ```python
 DEBUG = True
