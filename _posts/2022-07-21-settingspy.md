@@ -69,7 +69,6 @@ DATABASES = {
     }
 }
 ```
-<br/><br/> <br/><br/>
 
 ## 5. 다국어 및 지역 시간 설정
 * 기본 설정은 LANGUAGE_CODE= "en-us", TIME_ZONE = "UTC"로 되어 있다.
