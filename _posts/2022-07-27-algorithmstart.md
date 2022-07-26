@@ -97,15 +97,15 @@ ex)  국어사전, 오름차순, 내림차순
 정렬 알고리즘은 대부분 이 세가지 요소를 응용한다.<br/><br/><br/><br/>
 
 <조언>
-* 처음부터 어려운 걸 하려고 하지 말고, *간단한 것*부터 시작하자.
-* 선책한 언어의 문법과 클래스를 잘 파악하자.
-* 풀고 난 후 *다른 사람의 풀이*를 참고하자.
+* 처음부터 어려운 걸 하려고 하지 말고, *간단한 것*부터 시작하자.<br/><br/>
+* 선책한 언어의 문법과 클래스를 잘 파악하자.<br/><br/>
+* 풀고 난 후 *다른 사람의 풀이*를 참고하자.<br/><br/>
 * 경험이 쌓이면 익숙해진다. 조급해 하지 말자. 뭐든지 *기초를 탄탄히*.
 <br/><br/>
 <br/><br/>
 
-[내용 출처](https://blog.yena.io/studynote/2018/11/14/Algorithm-Basic.html)
-[정렬 출처 1](https://blog.yena.io/studynote/2018/11/14/Algorithm-Basic.html)
+[내용 출처](https://blog.yena.io/studynote/2018/11/14/Algorithm-Basic.html)<br/><br/>
+[정렬 출처 1](https://blog.yena.io/studynote/2018/11/14/Algorithm-Basic.html)<br/><br/>
 [정렬 출처 2](https://developerjun2.tistory.com/151)
 
 
