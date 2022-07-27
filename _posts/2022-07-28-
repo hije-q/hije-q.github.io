@@ -1,0 +1,45 @@
+---
+layout: post
+title: "ERD 설계 실습 2"
+author: hije
+categories: backend
+---
+### 학생 예약 시스템 ERD 설계하기
+<br/><br/>
+학생은 학번과 이름, 학과로 나타낸다.<br/><br/>
+학식은 식당 이름, 메뉴, 날짜, 제공 타입으로 나타낸다.<br/><br/>
+메뉴는 메뉴 이름과 메뉴 선호도를 알 수 있는 좋아요 수를 갖습니다.<br/><br/>
+
+* ENTITY -  학생, 학식 메뉴<br/><br/>
+* ATTRIBUTE - 이름, 학과, 식당 이름, 메뉴, 날짜, 제공 타입, 메뉴이릅, 메뉴 선호도<br/><br/>
+* RELATIONSHIP -  메뉴 - 학식(포함한다), 학생 - 메뉴(좋아요)<br/><br/>
+
+![표준 ERD 기호](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkJAnh%2FbtqFp52G1x3%2Fbe1xdlabumK7jALQMafsbk%2Fimg.png)
+
+<br/><br/>
+순서
+* 먼저 개체(ENTITY)를 그린다.<br/><br/>
+* 관계를 표시한다<br/><br/>
+* 속성을 추가한다.<br/><br/>
+
+![ERD](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FUZCHF%2FbtqFrVxQbSX%2Faik0iive6Uvqj6IR4J0DlK%2Fimg.png)
+
+
+이제 관계를 알아본다.<br/><br/>
+일대일, 일대다, 다대다<br/><br/><br/><br/>
+
+
+다시 한 번 복습
+* ENTITY - 명사에 해당하는 사물, 우리가 데이터로 표현하려는 것, 여러 속성을 갖고 있어야 한다.<br/><br/>
+* 다대다 관계 - 한 개의 물품은 여러명의 고객이 구매할 수 있고 고객이 여러 물품을 구매할 수 있기도 하다.<br/><br/><br/><br/>
+
+순서 정리
+1. Entity 뽑기
+2. 속성 뽑기
+3. 표준 ERD 기호로 그리기
+4. 관계 찾기
+5. 관계 나타내기
+
+
+
+[내용 출처](https://wonit.tistory.com/214?category=790502)
