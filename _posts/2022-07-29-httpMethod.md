@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "API 명세서 feat Notion"
+title: "API 명세서와 HTTP Method"
 author: hije
 categories: backend
 ---
@@ -9,11 +9,11 @@ categories: backend
 * API 를 사용하기 위해서 사용자는 서버와 클라이언트 사이에 존재하는 몇 가지 약속을 따라야 한다.<br/><br/>
 * 메세지의 데이터 형식이 무엇인지, 글자수 제한이 있는지, 어떤 방식으로 데이터가 전달되어야 하는지 등의 약속이 있다.<br/><br/>
 * 그럼 이 약속들을 어디서 확인할 수 있을까? 바로 API 문서(명세서)에서 확인할 수 있다.<br/><br/>
-[출처](https://tech.kakaoenterprise.com/127)
+[출처](https://tech.kakaoenterprise.com/127)<br/><br/>
 
 ### Notion ?
 * 노션은 메모, 데이터베이스, 알림과 같은 기능을 지원하는 소프트웨어로, 프로젝트를 진행하면서 필요한 관리 공간을 만들어 준다.
-<br/><br/>
+<br/><br/><br/><br/>
 ### 순서
 1. 우선 기능들을 뽑아서 우선순위가 높은 기능들부터 작성한다.<br/><br/>
 2. Post/Get/Put/Delete<br/><br/>
@@ -24,7 +24,7 @@ categories: backend
 [출처](https://chickenpaella.tistory.com/31)
 
 
-이렇게 말이다..<br/><br/>
+이렇게 말이다..
 
 <br/><br/>
 <br/><br/>
@@ -47,7 +47,7 @@ GET /USER/1
 
 * 데이터를 조회하는 것이기 때문에 요청시에 Body 값과 Content-Type 이 비워져있다.<br/><br/>
 * 조회할 데이터에 대한 정보는 url을 통해서 파라메터를 받고 있는 모습을 볼 수 있다.<br/><br/>
-* 데이터 조회에 성공한다면 Body 값에 데이터 값을 저장하여 성공 응답을 보낸다.<br/><br/>
+* 데이터 조회에 성공한다면 Body 값에 데이터 값을 저장하여 성공 응답을 보낸다.<br/><br/><br/><br/>
 
 ### POST: 등록
 * POST 는 주로 새로운 리소스를 생성할 때 사용된다. <br/><br/>
@@ -81,7 +81,7 @@ Content-Type : "application/json"
 * 데이터를 수정하는 것이기 때문에 요청시에 Body 값과 Content-Type 값을 작성해야 한다.<br/><br/>
 * URL 을 통해서 어떤 데이터를 수정할지 파라메터를 받는다.<br/><br/>
 * 그리고 수정할 데이터 값을 Body 값을 통해서 받는다.<br/><br/>
-* 데이터 조회에 성공한다면 Body 값에 저장한 데이터 값을 저장하여 성공 응답을 보낸다.<br/><br/>
+* 데이터 조회에 성공한다면 Body 값에 저장한 데이터 값을 저장하여 성공 응답을 보낸다.<br/><br/><br/><br/>
 
 ### DELETE: 삭제
 * 지정된 리소스를 삭제한다.<br/><br/>
@@ -92,7 +92,7 @@ DELETE /user/1
 
 * 데이터를 삭제하는 것이기 때문에 요청시에 Body 값과 Content-Type 값이 비워져있다.<br/><br/>
 * url 을 통해서 어떠한 데이터를 삭제할지 파라메터를 받는다.<br/><br/>
-* 데이터 삭제에 성공한다면 Body 값 없이 성공 응답만 보내게 된다.<br/><br/>
+* 데이터 삭제에 성공한다면 Body 값 없이 성공 응답만 보내게 된다.<br/><br/><br/><br/>
 
 ### POST vs PUT
 둘은 구분해서 사용해야 한다.  <br/><br/>
