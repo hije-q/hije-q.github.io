@@ -1,0 +1,200 @@
+---
+layout: post
+title: "용어 정리"
+author: hije
+categories: backend
+---
+
+### CRUD란?
+
+Create Read Update Delete<br/><br/><br/><br/>
+
+
+
+### DRF란?
+
+Django Rest Framework<br/><br/>
+
+Django 안에서 Restful API 서버를 쉽게 만들게 도와주는 라이브러리<br/><br/>
+
+
+
+사용하는 이유 
+
+- 웹 브라우저 API는 범용성이 크다. 개발을 쉽게 만들어준다.<br/><br/>
+
+- 시리얼 라이즈 기능을 제공해준다.(DB data > JSON)<br/><br/><br/><br/>
+
+
+
+$pip install djangorestframework 로 시작할 수 있다.<br/><br/><br/><br/>
+
+
+### JSON 이란?
+
+JavaScript Object Notation<br/><br/>
+
+데이터를 저장하거나 전송할 때 많이 사용되는 경량의 DATA 교환 형식<br/><br/>
+
+단순히 데이터를 표시하는 표현 방법<br/><br/>
+
+서버와 클라이언트 간의 교류에서 일반적으로 많이 사용된다.<br/><br/>
+
+
+
+### Serializer 란? 
+
+데이터를 직렬화하는 클래스<br/><br/>
+
+사용자의 DB안에 사용자, 프로필 사진, 이메일이 있다고 가정하면 사용자 모델 인스턴스를 Json형태 혹은 딕셔너리 형태로 직렬화 할 수 있다.<br/><br/>
+
+복잡한 객체들을 REST API에서 사용 가능하게 Json 형태로 변환해준다.<br/><br/><br/><br/>
+
+
+
+### Quearyset 란?
+
+쿼리셋은 전달받은 모델의 객체 목록<br/><br/>
+
+중요한 기능은 데이터를 필터링하는 것<br/><br/>
+
+.filter(title__contatins='today') 제목(title)에 today라는 글자가 들어간 글들만 뽑아내서 보고 싶을 때<br/><br/><br/><br/>
+
+
+### ORM 이란?
+
+Object Relational Mapping<br/><br/>
+
+MVC 패턴에서 모델(Model)을 기술하는 도구<br/><br/>
+
+객체와 관계형 데이터베이스의 데이터를 자동으로 매핑해주는 도구<br/><br/>
+
+객체 - 관계 매핑<br/><br/>
+
+클래스 사용<br/><br/>
+
+객체를 통해 간접적으로 데이터베이스 데이터를 다룬다<br/><br/>
+
+통역자/중계자 역할<br/><br/>
+
+객체와 모델 사이의 관계를 기술하는 도구<br/><br/><br/><br/>
+
+
+
+### MVC 란? 
+
+MVC design pattern<br/><br/>
+
+Model, View, Controller<br/><br/>
+
+프로젝트를 구성할 때 그 구성요소를 세가지의 역할로 구분한 패턴<br/><br/>
+
+소프트웨어 설계와 관련된 디자인 패턴<br/><br/>
+
+소프트웨어 공학에서의 '흔히 사용되는' 설계 패턴<br/><br/>
+
+중복코딩을 방지하기 위해 이용<br/><br/>
+
+
+
+'어떻게 나눌 것인가'가 핵심이다<br/><br/>
+
+역할 분담의 가이드 라인<br/><br/>
+
+이 패턴을 사용한 라이브러리나 프레임워크로 프로그래밍을 하면 더 쉽다.<br/><br/>
+
+
+django rest framework를 사용하다 보면 접할 수 있는 APIView 클래스와 api_view 데코레이터에 대해 알아보자<br/><br/><br/><br/>
+
+
+
+### 데코레이터 란?
+
+
+
+- python decorator (데코레이터)
+
+함수를 수정하지 않은 상태에서 추가 기능을 구현할 때 사용한다.<br/><br/>
+
+
+
+함수를 장식한다고 해서 데코레이터<br/><br/>
+
+
+
+* 데코레이터 trace - 함수의 실행 상황을 추적할 때 trace라는 말 사용함<br/><br/>
+
+
+
+@로 데코레이터 사용<br/><br/>
+
+@데코레이터<br/><br/>
+
+def 함수이름():<br/><br/><br/><br/>
+
+
+
+@trace 붙인 뒤 함수 호출하면됨<br/><br/>
+
+
+
+사실 이건 그 코드를 보면서 이해해야 한다.<br/><br/><br/><br/>
+
+### APIView 란?
+
+rest 프레임워크에서 제공하는 클래스<br/><br/>
+
+
+
+음 간단히 정리를 못하겠다 <br/><br/><br/><br/>
+
+
+### IA 란?
+
+information architecture 정보구조도<br/><br/>
+
+서비스의 목차 역할 /웹이 어떻게 구성되는지 보여준다<br/><br/>
+
+MVP(최소기능제품) 란?<br/><br/>
+
+고객에게 가치를 제공할 수 있는 최소한의 기능을 구현한 제품, 테스트<br/><br/>
+
+창업자의 아이디어가 실제 시장에서도 유효한지 검증<br/><br/><br/><br/>
+
+### 레퍼런스(reference) 란?
+
+어떤 대상을 참고한다. 참고나 인용, 상품이 어떤 표준안에 따라 제작되어진 상품<br/><br/>
+
+
+이력서 레퍼런스 - 추천서 혹은 이전에 근무했던 이력
+<br/><br/>
+
+
+
+### React 란?
+
+자바스크립트 라이브러리의 하나로서 사용자 인터페이스를 만들기 위해 쓴다.
+<br/><br/>
+
+
+
+### Figma 란?
+
+
+
+이건 사진으로 한 번 딱 보면 이해 간다.
+<br/><br/>
+
+
+### 레이아웃(layout 배치) 란?
+
+디자인에서 각 구성요소를 제한된 공간 안에 효과적으로 배열하는 일
+<br/><br/>
+
+
+
+이게 뭐지? 해서 찾아보면 또 이건 뭐지??? 가 반복된다.. 그래서 찾고찾고 찾아보았다..
+<br/><br/><br/><br/>
+
+Back to basics..
+
